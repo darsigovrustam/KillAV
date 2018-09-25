@@ -1,0 +1,64 @@
+﻿  Memory.cpp
+  Methods.cpp
+c:\users\рустам\source\repos\killav\killav\methods.cpp(15): error C2664: "LSTATUS RegCreateKeyExA(HKEY,LPCSTR,DWORD,LPSTR,DWORD,REGSAM,const LPSECURITY_ATTRIBUTES,PHKEY,LPDWORD)": невозможно преобразовать аргумент 2 из "LPCWSTR" в "LPCSTR"
+  c:\users\рустам\source\repos\killav\killav\methods.cpp(16): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+c:\users\рустам\source\repos\killav\killav\methods.cpp(110): error C2664: "HANDLE CreateJobObjectA(LPSECURITY_ATTRIBUTES,LPCSTR)": невозможно преобразовать аргумент 2 из "const wchar_t [7]" в "LPCSTR"
+  c:\users\рустам\source\repos\killav\killav\methods.cpp(110): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+c:\users\рустам\source\repos\killav\killav\methods.cpp(128): error C2664: "BOOL LookupPrivilegeValueA(LPCSTR,LPCSTR,PLUID)": невозможно преобразовать аргумент 2 из "LPCWSTR" в "LPCSTR"
+  c:\users\рустам\source\repos\killav\killav\methods.cpp(128): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+c:\users\рустам\source\repos\killav\killav\methods.cpp(145): error C2664: "void GetPrivilege(LPCWSTR)": невозможно преобразовать аргумент 1 из "const char [18]" в "LPCWSTR"
+  c:\users\рустам\source\repos\killav\killav\methods.cpp(145): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+c:\users\рустам\source\repos\killav\killav\methods.cpp(146): error C2664: "void GetPrivilege(LPCWSTR)": невозможно преобразовать аргумент 1 из "const char [19]" в "LPCWSTR"
+  c:\users\рустам\source\repos\killav\killav\methods.cpp(146): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+c:\users\рустам\source\repos\killav\killav\methods.cpp(147): error C2664: "void GetPrivilege(LPCWSTR)": невозможно преобразовать аргумент 1 из "const char [30]" в "LPCWSTR"
+  c:\users\рустам\source\repos\killav\killav\methods.cpp(147): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+c:\users\рустам\source\repos\killav\killav\methods.cpp(168): warning C4267: =: преобразование из "size_t" в "WORD"; возможна потеря данных
+c:\users\рустам\source\repos\killav\killav\methods.cpp(174): error C2664: "HANDLE OpenLinkHandle(LPCTSTR)": невозможно преобразовать аргумент 1 из "LPCWSTR" в "LPCTSTR"
+  c:\users\рустам\source\repos\killav\killav\methods.cpp(174): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+c:\users\рустам\source\repos\killav\killav\methods.cpp(231): error C2664: "BOOL CreateProcessA(LPCSTR,LPSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCSTR,LPSTARTUPINFOA,LPPROCESS_INFORMATION)": невозможно преобразовать аргумент 1 из "LPCWSTR" в "LPCSTR"
+  c:\users\рустам\source\repos\killav\killav\methods.cpp(233): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+  Source.cpp
+c:\users\рустам\source\repos\killav\killav\source.cpp(63): error C2664: "int wcscmp(const wchar_t *,const wchar_t *)": невозможно преобразовать аргумент 1 из "_TCHAR *" в "const wchar_t *"
+  c:\users\рустам\source\repos\killav\killav\source.cpp(63): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+c:\users\рустам\source\repos\killav\killav\source.cpp(71): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "_TCHAR *" (или приемлемое преобразование отсутствует)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(2483): note: может быть "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(const _Elem)"
+          with
+          [
+              _Elem=wchar_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(2478): note: или       "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(const _Elem *const )"
+          with
+          [
+              _Elem=wchar_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(2447): note: или       "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(const std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &)"
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(2408): note: или       "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(std::initializer_list<_Elem>)"
+          with
+          [
+              _Elem=wchar_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(2283): note: или       "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &&) noexcept(<expr>)"
+  c:\users\рустам\source\repos\killav\killav\source.cpp(71): note: при попытке сопоставить список аргументов "(std::wstring, _TCHAR *)"
+c:\users\рустам\source\repos\killav\killav\source.cpp(72): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "_TCHAR *" (или приемлемое преобразование отсутствует)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(2483): note: может быть "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(const _Elem)"
+          with
+          [
+              _Elem=wchar_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(2478): note: или       "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(const _Elem *const )"
+          with
+          [
+              _Elem=wchar_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(2447): note: или       "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(const std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &)"
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(2408): note: или       "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(std::initializer_list<_Elem>)"
+          with
+          [
+              _Elem=wchar_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(2283): note: или       "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &&) noexcept(<expr>)"
+  c:\users\рустам\source\repos\killav\killav\source.cpp(72): note: при попытке сопоставить список аргументов "(std::wstring, _TCHAR *)"
+  Utils.cpp
+c:\users\рустам\source\repos\killav\killav\utils.cpp(55): error C2664: "LSTATUS RegQueryValueExA(HKEY,LPCSTR,LPDWORD,LPDWORD,LPBYTE,LPDWORD)": невозможно преобразовать аргумент 2 из "LPCWSTR" в "LPCSTR"
+  c:\users\рустам\source\repos\killav\killav\utils.cpp(56): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+  Создание кода...

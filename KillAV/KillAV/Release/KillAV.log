@@ -1,0 +1,9 @@
+﻿  Memory.cpp
+  Methods.cpp
+c:\users\рустам\source\repos\killav\killav\methods.cpp(169): warning C4267: =: преобразование из "size_t" в "WORD"; возможна потеря данных
+  Source.cpp
+  Utils.cpp
+  Создание кода
+  All 653 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  KillAV.vcxproj -> C:\Users\Рустам\source\repos\KillAV\Release\KillAV.exe
